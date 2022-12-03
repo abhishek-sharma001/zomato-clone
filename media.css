@@ -1,0 +1,204 @@
+@media (max-width:700px) {
+
+    .nav .rightb {
+        display: none;
+    }
+
+    .nav #label_checkbox {
+        display: block;
+    }
+
+
+    .nav .centreb ul {
+        z-index: 50;
+
+
+        opacity: 0;
+
+
+
+        position: fixed;
+        left: 100%;
+
+
+        top: calc(var(--navheight));
+
+        width: 100%;
+        height: 100%;
+
+        text-align: center;
+
+
+        background-color: rgb(255, 255, 255);
+
+
+
+    }
+
+
+    .nav .centreb #check:checked+#imp_ul {
+        transition: all .4s ease-in-out;
+        left: 0;
+
+        opacity: 1;
+
+    }
+
+
+
+    .nav .centreb ul li {
+        display: block;
+        margin:15px 0px;
+        height: var(--navheight);
+
+
+    }
+
+
+
+
+    .nav .centreb ul li a {
+        font-size: 18px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(0, 0, 0);
+
+        padding: 7px 14px;
+
+    }
+
+
+
+
+
+
+
+    /* --------------------Content------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+    .content .top_content h1 {
+        font-size: 70px;
+
+    }
+
+    .content .top_content #srchbox {
+        width: 90vw;
+        height: 40px;
+    }
+
+    .content .top_content h2 {
+        font-size: 22px;
+    }
+
+
+    .content .main_content .cards {
+        margin: 25px 5px;
+    }
+
+    .content .main_content .cards img {
+        width: 80vw;
+        height: 57vw;
+    }
+
+    .content .main_content .cards:hover {
+        scale: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* -------------FOOTER---------------- */
+
+
+
+
+
+
+
+
+
+
+    .footer .one {
+        justify-content: space-between;
+    }
+
+    .footer .one h2 {
+        margin: 0px 25px 15px 25px;
+    }
+
+    .footer .two {
+        justify-content: left;
+    }
+
+    .footer .two .columns {
+        margin: 15px 40px 15px 20px;
+    }
+
+
+}
+
+
+@media (min-width:700px) and (max-width:985px) {
+
+    .nav .leftb {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .nav .leftb h2 {
+        font-size: 35px;
+    }
+
+    .nav .centreb ul li {
+
+        margin: 0px 4px;
+
+
+
+    }
+
+    .nav .centreb ul li a {
+        font-size: 14px;
+
+        padding: 7px 8px;
+    }
+
+    .nav .rightb {
+        margin: 0px 5px;
+    }
+
+    .nav .rightb .signup {
+
+        margin: 0px 1px;
+        padding: 7px px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    /* --------------------Content----------------- */
+    .content .main_content .cards img {
+        width: 300px;
+        height: 200px;
+    }
+
+
+}
