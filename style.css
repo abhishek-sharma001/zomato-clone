@@ -99,7 +99,7 @@ body {
 
 
 
-.nav .centreb ul li a:hover,#home_a {
+.nav .centreb ul li a:hover {
     transition: all .2s ease-out;
 
     background-color: rgba(251, 116, 116, 0.889);
@@ -114,6 +114,11 @@ body {
     color: white;
 
 
+
+}
+#home_a {
+    background-color: rgba(251, 116, 116, 0.889);
+    border-radius: 5px;
 
 }
 
